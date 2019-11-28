@@ -1,6 +1,6 @@
 # Python flask 学习
 
-![20191128_191911_78](image/20191128_191911_78.png) 
+![20191128_191911_78](image/20191128_191911_78.png)
 
 ## 本仓库说明
 
@@ -39,10 +39,11 @@ Something I hope you know before go into the coding~
 
 
 
+
 ## 参考
 
-* Python Gtk包仓库 : <https://pypi.org/>
-
----
+* Python 包仓库 : <https://pypi.org/>
+* <https://github.com/greyli/helloflask>
+* <http://helloflask.com/book/>
 
 ---

@@ -1,53 +1,48 @@
-# Python flask web编程
+# Python flask 学习
+
+![20191128_191911_78](image/20191128_191911_78.png) 
+
+## 本仓库说明
+
+1. Python flask 学习笔记
+
+```
+Something I hope you know before go into the coding~
+* First, please watch or star this repo, I'll be more happy if you follow me.
+* Bug report, questions and discussion are welcome, you can post an issue or pull a request.
+```
+
+* GitBook : <https://yifengyou.gitbooks.io/learn-flask/content/>
+* GitHub : <https://github.com/yifengyou/learn-flask/>
+* GitPage : <https://yifengyou.github.io/learn-flask/>
 
 ## 目录
 
-* [读我](README.md)
-* [6节课入门Flask框架web开发视频](6节课入门Flask框架web开发视频.md)
-    * [01课程介绍](docs/6节课入门Flask框架web开发视频/01课程介绍.md)
-    * [01-02-为什么要使用Web框架](docs/6节课入门Flask框架web开发视频/01-02-为什么要使用Web框架.md)
-    * [01-03-Flask简介](docs/6节课入门Flask框架web开发视频/01-03-Flask简介.md)
-    * [01-04-Flask安装](docs/6节课入门Flask框架web开发视频/01-04-Flask安装.md)
-    * [01-05-requirements文件使用](docs/6节课入门Flask框架web开发视频/01-05-requirements文件使用.md)
-    * [01-06-第一个Flask程序](docs/6节课入门Flask框架web开发视频/01-06-第一个Flask程序.md)
-    * [01-07-路由请求方式限定](docs/6节课入门Flask框架web开发视频/01-07-路由请求方式限定.md)
-    * [01-08-路由参数处理](docs/6节课入门Flask框架web开发视频/01-08-路由参数处理.md)
-    * [02-01-Jinji2模板引擎简介](docs/6节课入门Flask框架web开发视频/02-01-Jinji2模板引擎简介.md)
-    * [02-02-变量代码块的基本使用](docs/6节课入门Flask框架web开发视频/02-02-变量代码块的基本使用.md)
-    * [02-03-控制代码块的基本使用](docs/6节课入门Flask框架web开发视频/02-03-控制代码块的基本使用.md)
-    * [02-04-过滤器的基本使用](docs/6节课入门Flask框架web开发视频/02-04-过滤器的基本使用.md)
-    * [03-01-普通的表单验证](docs/6节课入门Flask框架web开发视频/03-01-普通的表单验证.md)
-    * [03-02-flash消息闪现](docs/6节课入门Flask框架web开发视频/03-02-flash消息闪现.md)
-    * [03-03-WTF简介](docs/6节课入门Flask框架web开发视频/03-03-WTF简介.md)
-    * [03-04-WTF表单的显示](docs/6节课入门Flask框架web开发视频/03-04-WTF表单的显示.md)
-    * [03-05-WTF的逻辑验证](docs/6节课入门Flask框架web开发视频/03-05-WTF的逻辑验证.md)
-* [电影评论管理系统](电影评论管理系统.md)
-    * [项目分析及会员登录](docs/项目分析及会员登录.md)
-    * [标签-电影-上映预告数据模型设计](docs/标签-电影-上映预告数据模型设计.md)
-    * [评论-收藏-权限-角色-管理员-操作日志数据模型设计](docs/评论-收藏-权限-角色-管理员-操作日志数据模型设计.md)
-    * [前台布局-会员登陆页面搭建](docs/前台布局-会员登陆页面搭建.md)
-    * [会员注册-会员中心页面搭建](docs/会员注册-会员中心页面搭建.md)
-    * [电影列表页面搭建](docs/电影列表页面搭建.md)
-    * [电影详情页-404页面搭建](docs/电影详情页-404页面搭建.md)
-    * [管理员登陆-后台布局搭建](docs/管理员登陆-后台布局搭建.md)
-    * [修改密码-控制面板-标签管理页面搭建](docs/修改密码-控制面板-标签管理页面搭建.md)
-    * [电影管理-上映预告管理页面搭建](docs/电影管理-上映预告管理页面搭建.md)
-    * [会员-收藏-评论管理页面搭建](docs/会员-收藏-评论管理页面搭建.md)
-    * [收藏-日志-角色管理页面搭建](docs/收藏-日志-角色管理页面搭建.md)
-    * [管理员管理页面搭建](docs/管理员管理页面搭建.md)
-    * [管理员登陆](docs/管理员登陆.md)
-    * [标签管理](docs/标签管理.md)
-    * [电影管理-添加电影](docs/电影管理-添加电影.md)
-    * [电影管理-列表-删除-编辑](docs/电影管理-列表-删除-编辑.md)
-    * [预告管理](docs/预告管理.md)
-    * [会员管理](docs/会员管理.md)
-    * [评论-收藏管理](docs/评论-收藏管理.md)
-    * [修改密码](docs/修改密码.md)
-    * [日志管理](docs/日志管理.md)
-    * [权限管理](docs/权限管理.md)
-    * [角色管理](docs/角色管理.md)
-    * [管理员管理](docs/管理员管理.md)
+
+* [Flask框架](docs/Flask框架.md)
+    * [Flask简介](docs/Flask框架/Flask简介.md)
+    * [Flask安装](docs/Flask框架/Flask安装.md)
+    * [第一个Flask程序](docs/Flask框架/第一个Flask程序.md)
+    * [路由请求方式限定](docs/Flask框架/路由请求方式限定.md)
+    * [路由参数处理](docs/Flask框架/路由参数处理.md)
+    * [Jinji2模板引擎简介](docs/Flask框架/Jinji2模板引擎简介.md)
+    * [变量代码块的基本使用](docs/Flask框架/变量代码块的基本使用.md)
+    * [控制代码块的基本使用](docs/Flask框架/控制代码块的基本使用.md)
+    * [过滤器的基本使用](docs/Flask框架/过滤器的基本使用.md)
+    * [普通的表单验证](docs/Flask框架/普通的表单验证.md)
+    * [flash消息闪现](docs/Flask框架/flash消息闪现.md)
+    * [WTF简介](docs/Flask框架/WTF简介.md)
+    * [WTF表单的显示](docs/Flask框架/WTF表单的显示.md)
+    * [WTF的逻辑验证](docs/Flask框架/WTF的逻辑验证.md)
+* [项目](docs/项目.md)
+  * [电影评论管理系统](docs/项目/电影评论管理系统.md)
 
 
+
+## 参考
+
+* Python Gtk包仓库 : <https://pypi.org/>
+
+---
 
 ---
